@@ -29,11 +29,20 @@
 
 ### Commenting Conventions
 * Single-Line Comments:
-  * Use `///` for single-line comments.
+  * Use `//` for single-line comments.
   * Multi-Line Comments:
     * Use { } or (* *) for multi-line comments.
 * Documentation Comments:
-  * Use `///` for documentation comments that can be processed by documentation tools.
+  * Use `///` for documentation comments that can be processed by documentation tools. e.g:
+  ```delphi
+  /// <summary>
+  /// Adds two integers and returns the result.
+  /// </summary>
+  /// <param name="A">The first integer to add.</param>
+  /// <param name="B">The second integer to add.</param>
+  /// <returns>The sum of A and B.</returns>
+  function Add(A, B: Integer): Integer;
+  ```
 
 ### Example Code with Conventions
 ```
